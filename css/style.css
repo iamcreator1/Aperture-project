@@ -72,7 +72,7 @@ header .container nav ul li:last-of-type a {
 /* SECTION_ONE */
 
 .section_one {
-  background-image: url(/images/bg_section_one.jpg);
+  background-image: url(../images/bg_section_one.jpg);
   background-size: cover;
   height: 78vh;
   justify-content: center;
