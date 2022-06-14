@@ -148,27 +148,27 @@ header .container nav ul li:last-of-type a {
 }
 
 .data_photos li:nth-child(1)::before {
-  background-image: url(/images/time.svg);
+  background-image: url(../images/time.svg);
 }
 
 .data_photos li:nth-child(2)::before {
-  background-image: url(/images/aperture.svg);
+  background-image: url(../images/aperture.svg);
 }
 
 .data_photos li:nth-child(3)::before {
-  background-image: url(/images/iso.svg);
+  background-image: url(../images/iso.svg);
   width: 32px;
 }
 
 .data_photos li:nth-child(4)::before {
-  background-image: url(/images/location.svg);
+  background-image: url(../images/location.svg);
   width: 10px;
 }
 
 /* ? mountaine sectino*/
 
 .mountaine-section {
-  background-image: url(/images/mountain_sec_two.jpg);
+  background-image: url(../images/mountain_sec_two.jpg);
   background-size: cover;
   height: 78vh;
   position: relative;
@@ -318,7 +318,7 @@ header .container nav ul li:last-of-type a {
 /* ? section with flowers */
 
 .green-flowers {
-  background-image: url(/images/flowers_section_three.jpg);
+  background-image: url(../images/flowers_section_three.jpg);
   background-size: cover;
   height: 78vh;
   position: relative;
@@ -395,7 +395,7 @@ header .container nav ul li:last-of-type a {
 /* SECTION FIVE */
 
 .section_five {
-  background-image: url(/images/mountin_night.jpg);
+  background-image: url(../images/mountin_night.jpg);
   background-size: cover;
   height: 78vh;
   position: relative;
