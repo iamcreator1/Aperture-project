@@ -4,7 +4,7 @@
 }
 
 .container {
-  max-width: 1148px;
+  max-width: 1168px;
   margin: auto;
 }
 
@@ -265,6 +265,10 @@ header .container nav ul li:last-of-type a {
   left: 30px;
 }
 
+.text-in-box p {
+  padding: 0 10px 0 0;
+}
+
 .box-for-img {
   position: relative;
 }
@@ -362,7 +366,7 @@ header .container nav ul li:last-of-type a {
 
 .section_four {
   background-color: black;
-  padding: 113px 140px;
+  padding: 113px 0;
   justify-content: center;
   text-align: center;
   box-sizing: border-box;
@@ -439,8 +443,7 @@ header .container nav ul li:last-of-type a {
 
 .section_six {
   background-color: black;
-  padding: 113px 0px 1px;
-  height: 70vh;
+  padding: 113px 0px 108px;
   justify-content: center;
 
 }
