@@ -7,6 +7,81 @@
   }
 }
 
+@media only screen and (max-width: 768px) {
+
+  header nav ul {
+    display: none;
+  }
+
+  header .container {
+    padding: 0 10px;
+  }
+
+  .button-burger {
+    display: flex;
+  }
+}
+@media only screen and (max-width: 794px) {
+
+  header nav ul {
+    display: none;
+  }
+
+  header .container {
+    padding: 0 10px;
+  }
+
+  .button-burger-white {
+    display: flex;
+  }
+
+  .button-burger-white img:hover {
+    background-image: url(../images/button_black.svg);
+    width: 50px;
+    height: 50px;
+  }
+}
+@media only screen and (max-width: 820px) {
+
+  header nav ul {
+    display: none;
+  }
+
+  header .container {
+    padding: 0 10px;
+  }
+
+  .button-burger-white {
+    display: flex;
+  }
+
+  .button-burger-white img:hover {
+    background-image: url(../images/button_black.svg);
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 411px) {
+
+  .what-we-do .container h2 {
+    font-size: 30px;
+  }
+  .description-in-container {
+    padding: 0 10px;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 826px) {
+.menu li {
+    display: none;
+  }
+
+  .button-burger-white {
+    display: block;
+  }
+}
 
 @media only screen and (max-width: 320px) {
   .data_photos {

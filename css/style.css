@@ -4,7 +4,7 @@
 }
 
 .container {
-  max-width: 1168px;
+  max-width: 1148px;
   margin: auto;
 }
 
@@ -18,6 +18,8 @@ header .container {
   justify-content: space-between;
   align-items: center;
 }
+
+
 
 .logotype {
   align-items: center;
@@ -67,6 +69,10 @@ header .container nav ul li:last-of-type a {
   color: #000000;
   background: #FFFFFF;
   border-radius: 14px;
+}
+
+.button-burger-white {
+  display: none;
 }
 
 /* SECTION_ONE */
@@ -433,7 +439,7 @@ header .container nav ul li:last-of-type a {
 
 .section_six {
   background-color: black;
-  padding: 113px 0 100px;
+  padding: 113px 0px 1px;
   height: 70vh;
   justify-content: center;
 
