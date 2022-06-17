@@ -2,6 +2,9 @@
   padding: 0;
   margin: 0;
 }
+body {
+  background-color: black;
+}
 
 .container {
   max-width: 1168px;
@@ -56,6 +59,7 @@ header .container nav ul li:first-of-type a {
 
 header .container nav ul li:last-of-type {
   margin-left: 31px;
+  transition: 500ms;
 }
 
 header .container nav ul li:last-of-type a {
@@ -70,6 +74,11 @@ header .container nav ul li:last-of-type a {
   background: #FFFFFF;
   border-radius: 14px;
 }
+
+.menu>:last-child:hover {
+  transform: scale(1.15);
+}
+
 
 .button-burger-white {
   display: none;
@@ -181,6 +190,8 @@ header .container nav ul li:last-of-type a {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  transition: 500ms;
+
 }
 
 .mountaine-section article {
@@ -212,6 +223,7 @@ header .container nav ul li:last-of-type a {
 .what-we-do {
   background-color: black;
   padding: 120px 0 100px;
+  transition: 500ms;
 }
 
 .wraper-for-images-top {
@@ -322,6 +334,12 @@ header .container nav ul li:last-of-type a {
   left: 4px;
 }
 
+.fade {
+  opacity: 0;
+  transform: translateX(-50px);
+}
+
+
 
 
 
@@ -395,12 +413,17 @@ header .container nav ul li:last-of-type a {
 }
 
 
+
+
 .section_four .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  padding: 0 10px;
 }
+
+
 
 /* SECTION FIVE */
 

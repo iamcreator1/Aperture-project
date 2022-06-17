@@ -9,7 +9,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/media-queries.css">
 </head>
 
@@ -17,49 +22,51 @@
 
     <header>
         <div class="container">
-          <a href="#">
-            <img src="images/logotype.svg" alt="#">
-          </a>
-    
-          <nav>
-            <ul class="menu">
-              <li>
-                <a href="#">Business areas</a>
-              </li>
-              <li>
-                <a href="#">Featured images</a>
-              </li>
-              <li>
-                <a href="#">Gear cage</a>
-              </li>
-              <li>
-                <a href="#">Contact</a>
-              </li>
-              <li>
-                <a href="#">Get template</a>
-              </li>
-            </ul>
-          </nav>
-    
-          <a class="button-burger-white" href="#">
-            <img src="images/button-white.svg" alt="">
-          </a>
-    
-        
-    
-        </div>
-      </header>
+            <a href="#">
+                <img src="images/logotype.svg" alt="#">
+            </a>
 
-    <section class="section_one">
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a href="#">Business areas</a>
+                    </li>
+                    <li>
+                        <a href="#">Featured images</a>
+                    </li>
+                    <li>
+                        <a href="#">Gear cage</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#">Get template</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <a class="button-burger-white" href="#">
+                <img src="images/button-white.svg" alt="">
+            </a>
+
+
+
+        </div>
+    </header>
+
+    <section class="section_one wow fadeInDown">
         <div class="container">
             <article>
-            <h3>Photographer & Filmmaker</h3>
-            <h1>Aperture Studios</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
-                tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae
-                erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique
-                posuere.</p>
-                </article>
+                <h3>Photographer & Filmmaker</h3>
+                <h1>Aperture Studios</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                    tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+                    vitae
+                    erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus
+                    tristique
+                    posuere.</p>
+            </article>
         </div>
 
         <ul class="data_photos">
@@ -69,9 +76,10 @@
             <li>Iceland</li>
         </ul>
 
+
     </section>
 
-    <section class="what-we-do">
+    <section id="wwd" class="what-we-do fade">
         <div class="container">
             <h2>What we do.</h2>
             <p class="description-in-container">The areas that we're specialized in.</p>
@@ -110,7 +118,9 @@
                     </div>
                     <article class="text-in-box">
                         <h4>Drone Photography</h4>
-                        <p>Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt. Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
+                        <p>Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt. Duis tristique sed lorem a
+                            vestibulum. Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur
+                            auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
                         <a href="">Read more</a>
                     </article>
                 </div>
@@ -120,7 +130,9 @@
                     </div>
                     <article class="text-in-box">
                         <h4>Wildlife Photography</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula. Vestibulum sit amet urna turpis.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et
+                            faucibus. Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus
+                            congue et, vulputate ut ligula. Vestibulum sit amet urna turpis.</p>
                         <a href="">Read more</a>
                     </article>
                 </div>
@@ -130,66 +142,90 @@
         </div>
     </section>
 
-    <section class="mountaine-section">
+    <section data-aos="fade-left" class="mountaine-section">
         <ul class="data_photos">
             <li>1''</li>
             <li>f/16</li>
             <li>400</li>
             <li>Japan</li>
         </ul>
-        <article>
-        <h5>Sunset at Mount Fuji</h5>
-        <p>Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus egestas non.</p>
-        </article>
+
+        <div data-aos="fade-right">
+            <article>
+                <h5>Sunset at Mount Fuji</h5>
+                <p>Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus egestas non.
+                </p>
+            </article>
+        </div>
+
     </section>
 
-    <section class="green-flowers">
+
+    <section data-aos="fade-left" class="green-flowers">
         <ul class="data_photos">
             <li>1/400s</li>
             <li>f/3,5</li>
             <li>100</li>
             <li>Costa Rica</li>
         </ul>
-        <article>
-            <h5>Monstera Leafs</h5>
-            <p>Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.</p>
+
+        <div data-aos="fade-right">
+            <article>
+                <h5>Monstera Leafs</h5>
+                <p>Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.
+                </p>
             </article>
+        </div>
+
     </section>
 
-    <section class="section_four">
+
+
+    <section data-aos="fade-left" class="section_four">
         <h1>Past clients</h1>
         <h3>Trusted by your favourite companies</h3>
 
         <div class="container">
-            <a href="">
-                <img src="images/hi_players.svg" alt=""></a>
-            <a href="">
-                <img src="images/rick_mount.svg" alt=""></a>
-            <a href="">
-                <img src="images/studio_cai.svg" alt=""></a>
-            <a href="">
-                <img src="images/cill.svg" alt=""></a>
-            <a href="">
-                <img src="images/stock_holm.svg" alt=""></a>
+
+
+            <a href=""><img src="images/hi_players.svg" alt=""></a>
+
+            <a href=""><img src="images/rick_mount.svg" alt=""></a>
+
+            <a href=""><img src="images/studio_cai.svg" alt=""></a>
+
+            <a href=""><img src="images/cill.svg" alt=""></a>
+
+            <a href=""><img src="images/stock_holm.svg" alt=""></a>
+
+
+
 
         </div>
 
     </section>
 
-    <section class="section_five">
+
+
+    <section data-aos="fade-left" class="section_five">
         <ul class="data_photos">
             <li>6''</li>
             <li>f/11</li>
             <li>800</li>
             <li>Nepal</li>
         </ul>
-        <article>
-            <h5>Star fall in the Himalayas</h5>
-            <p>Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.</p>
+        <div data-aos="fade-right">
+            <article>
+                <h5>Star fall in the Himalayas</h5>
+                <p>Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate
+                    ut
+                    ligula.</p>
             </article>
+        </div>
     </section>
 
-    <section class="section_six">
+
+    <section data-aos="zoom-in" class="section_six">
 
         <div class="container">
             <h1>Need help with photography or videography?</h1>
@@ -200,7 +236,18 @@
     </section>
 
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/script.js"></script>
 
 
 
